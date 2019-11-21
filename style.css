@@ -40,6 +40,14 @@ nav ul li {
   list-style: none;
 }
 
+main {
+  display: flex
+}
+
+section {
+  width: 85%;
+}
+
 .hero-container {
   background: rgb(65, 60, 60);
 }
@@ -51,4 +59,25 @@ nav ul li {
 
 .employee-display-container {
   background: white;
+}
+
+aside {
+  width: 15%;
+}
+
+.aside-content {
+  background: white;
+}
+
+.menu-links li {
+  list-style: none;
+}
+
+.employee-footer,
+.footer-logo-container {
+  display: flex;
+}
+
+.aside-footer {
+  background: grey;
 }
