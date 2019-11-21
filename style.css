@@ -17,6 +17,7 @@ header {
 
 i {
   color: #009688;
+  margin: 2%;
 }
 
 .nav-links,
@@ -107,6 +108,7 @@ section {
 
 .image-container {
   position: relative;
+  margin: 1%;
 }
 
 .image-container img {
@@ -125,6 +127,12 @@ section {
 .employee-image-text h5 {
   position: absolute;
   right: 0%;
+}
+
+.cta {
+  margin-top: 1%;
+  margin-left: 1%;
+  padding-bottom: 3%;
 }
 
 .cta-text {
