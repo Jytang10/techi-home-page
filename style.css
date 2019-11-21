@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: grey;
+}
+
+header {
+  background: white;
+}
+
+nav {
+  width: 80%;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  color: green;
+}
+
+nav ul {
+  width: 30%;
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
