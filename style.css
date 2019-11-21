@@ -5,7 +5,7 @@
 }
 
 body {
-  background: grey;
+  background: rgb(47, 61, 82);
 }
 
 header {
@@ -15,10 +15,25 @@ header {
   height: 10vh;
 }
 
-.left-logo-container,
 .nav-links,
 .right-logo-container {
   display: flex;
+}
+
+.left-logo-container {
+  width: 10%;
+}
+
+.nav-container {
+  width: 75%;
+}
+
+.right-logo-container {
+  width: 15%;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-color: grey;
+  border-width: 1px;
 }
 
 nav {
@@ -63,14 +78,24 @@ section {
 
 aside {
   width: 15%;
+  border-left-style: solid;
+  border-color: grey;
+  border-width: 1px;
 }
 
 .aside-content {
   background: white;
 }
 
+.menu-links {
+  text-align: center;
+}
+
 .menu-links li {
   list-style: none;
+  border-bottom-style: solid;
+  border-color: grey;
+  border-width: 1px;
 }
 
 .employee-footer,
