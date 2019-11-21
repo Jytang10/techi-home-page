@@ -39,3 +39,16 @@ nav ul {
 nav ul li {
   list-style: none;
 }
+
+.hero-container {
+  background: rgb(65, 60, 60);
+}
+
+.employee-images,
+.cta {
+  display: flex;
+}
+
+.employee-display-container {
+  background: white;
+}
