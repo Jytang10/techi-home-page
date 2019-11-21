@@ -76,7 +76,23 @@ section {
 }
 
 .hero-container {
-  background: rgb(65, 60, 60);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./img/hero.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 22%;
+  left: 2%;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 55px;
 }
 
 .employee-images,
