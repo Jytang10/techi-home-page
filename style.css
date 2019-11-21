@@ -10,10 +10,19 @@ body {
 
 header {
   background: white;
+  display: flex;
+  width: 100%;
+  height: 10vh;
+}
+
+.left-logo-container,
+.nav-links,
+.right-logo-container {
+  display: flex;
 }
 
 nav {
-  width: 80%;
+  width: 100%;
   height: 10vh;
   display: flex;
   justify-content: flex-end;
@@ -21,9 +30,12 @@ nav {
 }
 
 nav ul {
-  width: 30%;
-  background-color: blue;
+  width: 20%;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  margin-right: 15%;
+}
+
+nav ul li {
+  list-style: none;
 }
