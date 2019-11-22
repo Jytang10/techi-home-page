@@ -12,11 +12,7 @@ header {
   background: #fafafa;
   display: flex;
   align-items: center;
-}
-
-header img {
-  width: 100%;
-  height: auto;
+  height: 6vh;
 }
 
 i {
@@ -33,27 +29,27 @@ i {
 }
 
 .left-logo-container img {
-  height: 100%;
+  width: 100%;
 }
 
 .nav-container {
-  width: 75%;
+  width: 65%;
 }
 
 .right-logo-container {
-  width: 15%;
+  width: 25%;
   border-left-style: solid;
   border-color: #818181;
   border-width: 1px;
+  align-items: center;
+  justify-content: center;
 }
 
 .right-logo-container img {
-  height: 100%;
+  width: 75%;
 }
 
 nav {
-  width: 100%;
-  height: 100%;
   display: flex;
   justify-content: flex-end;
   align-self: flex-end;
@@ -62,8 +58,7 @@ nav {
 }
 
 nav ul {
-  width: 30%;
-  display: flex;
+  width: 50%;
   justify-content: space-around;
 }
 
@@ -77,12 +72,12 @@ main {
 }
 
 section {
-  width: 85%;
+  width: 75%;
 }
 
 .hero-container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./img/hero.jpeg");
-  height: 25vh;
+  height: 11vh;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -101,7 +96,7 @@ section {
 }
 
 .hero-text h1 {
-  font-size: 55px;
+  font-size: 1.5em;
 }
 
 .employee-images-container,
@@ -152,7 +147,7 @@ section {
 }
 
 aside {
-  width: 15%;
+  width: 25%;
   border-left-style: solid;
   border-color: #818181;
   border-width: 1px;
