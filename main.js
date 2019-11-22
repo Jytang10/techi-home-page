@@ -9,7 +9,7 @@ let first_name;
 let last_name;
 let title;
 let description;
-let image_folder;
+let images_folder_url;
 let employee_image_url;
 
 function findByID(id, data){
@@ -41,5 +41,18 @@ fetch(description_url)
     foundEmployee = findByID(1, employeeData)
     description = foundEmployee[0].description;
     title = foundEmployee[0].title;
+  })
+  .catch(err => { throw err });
+
+
+fetch(images_url)
+  .then(res => res.json())
+  .then((res) => {
+    images_folder_url = res['images-folder'];
+    employeeData = res.employees;
+  })
+  .then((res) => {
+    foundEmployee = findByID(1, employeeData);
+    employee_image_url = foundEmployee[0].full;
   })
   .catch(err => { throw err });
