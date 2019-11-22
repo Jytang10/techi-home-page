@@ -12,7 +12,7 @@ header {
   background: #fafafa;
   display: flex;
   width: 100%;
-  height: 10vh;
+  height: 11vh;
   align-items: center;
 }
 
@@ -23,7 +23,6 @@ header img {
 
 i {
   color: #009688;
-  margin: 2%;
 }
 
 .nav-links,
@@ -45,6 +44,7 @@ i {
 
 .right-logo-container {
   width: 15%;
+  height: 100%;
   border-left-style: solid;
   border-bottom-style: solid;
   border-color: #282727;
@@ -57,7 +57,7 @@ i {
 
 nav {
   width: 100%;
-  height: 10vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -86,8 +86,8 @@ section {
 }
 
 .hero-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./img/hero.jpeg");
-  height: 30vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./img/hero.jpeg");
+  height: 25vh;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -130,7 +130,7 @@ section {
   top: 70%;
   right: 0%;
   color: #ffffff;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .employee-image-text h5 {
@@ -139,13 +139,15 @@ section {
 }
 
 .cta {
+  display: flex;
   margin-top: 1%;
   margin-left: 1%;
-  padding-bottom: 3%;
+  padding-bottom: 2%;
 }
 
 .cta-text {
   color: #009688;
+  margin-right: 3px;
 }
 
 .employee-display-container {
@@ -174,18 +176,30 @@ aside {
   border-width: 1px;
 }
 
-.employee-footer,
 .footer-content,
 .footer-logo-container {
   display: flex;
 }
 
 .footer-content {
-  padding: 2%;
+  padding: 1%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .footer-text {
   color: #eceff1;
+}
+
+.footer-logo-container {
+  position: absolute;
+  right: 2%;
+}
+
+.footer-logo-container i {
+  margin: 3%;
 }
 
 .aside-footer {
