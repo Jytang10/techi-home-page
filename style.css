@@ -138,8 +138,7 @@ section {
 
 .cta {
   display: flex;
-  margin-top: 1%;
-  margin-left: 1%;
+  margin-left: 2%;
   padding-bottom: 2%;
 }
 
@@ -161,6 +160,10 @@ aside {
 
 .aside-content {
   background: #fafafa;
+}
+
+.aside-image-container .image-container {
+  margin: 0% 5% 5% 5%;
 }
 
 .menu-links {
@@ -188,7 +191,6 @@ aside {
 .footer-content {
   padding: 1%;
   width: 100%;
-  align-items: center;
   justify-content: center;
   position: relative;
 }
@@ -206,6 +208,29 @@ aside {
   margin: 3%;
 }
 
+.aside-cta {
+  display: flex;
+  margin-top: 4%;
+  margin-left: 4%;
+  padding-bottom: 4%;
+}
+
+.aside-cta-content {
+  width: 70%;
+}
+
 .aside-footer {
   background: #263238;
+}
+
+.aside-footer-content {
+  padding: 1%;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.aside-footer-content p {
+  font-size: 0.4rem;
+  margin: 4%;
 }
